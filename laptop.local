@@ -1,0 +1,40 @@
+#!/bin/sh
+
+brew bundle --file=-<<EOF
+
+brew 'yarn'
+brew 'tree'
+brew 'gist'
+brew 'openssl'
+brew 'certbot'
+brew 'ssh-copy-id'
+brew 'shellcheck'
+brew 'jsonlint'
+
+tap 'caskroom/cask'
+
+cask 'visual-studio-code'
+cask 'google-chrome'
+cask 'ngrok'
+cask 'sketch'
+cask 'moom'
+cask 'the-unarchiver'
+cask 'hyper'
+cask 'slack'
+cask 'insomnia'
+cask '1password'
+
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'suspicious-package'
+cask 'webpquicklook'
+cask 'qlmarkdown'
+EOF
+
+npm install -g pure
+
+brew cleanup
+
+if [ -r "$HOME/.rcrc" ]; then
+	rcup
+fi
