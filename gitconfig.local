@@ -1,7 +1,10 @@
 [user]
   name = Jonathan Steele
   email = jonathan@steele.pro
+  signingkey = B35133D30936E88B
 [shell]
   username = ynnoj
 [github]
   username = ynnoj
+[commit]
+  gpgSign = true
