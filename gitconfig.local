@@ -2,6 +2,8 @@
   name = Jonathan Steele
   email = jonathan@steele.pro
   signingkey = B35133D30936E88B
+[pull]
+  rebase = false
 [shell]
   username = ynnoj
 [github]
