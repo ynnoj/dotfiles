@@ -39,6 +39,7 @@ cask 'istat-menus'
 cask 'kap'
 cask 'dropbox'
 cask 'google-backup-and-sync'
+cask 'bartender'
 
 cask 'quicklook-json'
 cask 'quicklook-csv'
