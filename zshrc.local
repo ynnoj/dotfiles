@@ -1,10 +1,14 @@
 export ZSH="/Users/jonathan/.oh-my-zsh"
 export GPG_TTY=${tty}
 
-ZSH_THEME="refined"
+ZSH_THEME=""
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+autoload -U promptinit; promptinit
+prompt pure
+
 export GPG_TTY=$(tty)
+export PATH="$HOME/.bin:$PATH"
