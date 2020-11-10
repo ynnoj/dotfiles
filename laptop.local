@@ -19,7 +19,7 @@ brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 brew 'ffmpeg'
 
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 
 cask 'visual-studio-code'
 cask 'google-chrome'
