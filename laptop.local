@@ -38,7 +38,7 @@ cask 'keepingyouawake'
 cask 'istat-menus'
 cask 'kap'
 cask 'dropbox'
-case 'google-backup-and-sync'
+cask 'google-backup-and-sync'
 
 cask 'quicklook-json'
 cask 'quicklook-csv'
