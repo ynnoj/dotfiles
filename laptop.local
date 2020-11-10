@@ -15,8 +15,6 @@ brew 'ffmpeg'
 brew 'kryptco/tap/kr'
 brew 'gh'
 brew 'stripe/stripe-cli/stripe'
-brew 'zsh-syntax-highlighting'
-brew 'zsh-autosuggestions'
 brew 'ffmpeg'
 
 tap 'homebrew/cask'
