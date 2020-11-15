@@ -39,6 +39,8 @@ cask 'dropbox'
 cask 'google-backup-and-sync'
 cask 'bartender'
 cask 'alfred'
+cask 'aerial'
+cask 'qmoji'
 
 cask 'quicklook-json'
 cask 'quicklook-csv'
