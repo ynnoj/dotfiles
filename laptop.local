@@ -43,6 +43,7 @@ cask 'alfred'
 cask 'aerial'
 cask 'qmoji'
 cask 'figma'
+cask 'rocket'
 
 cask 'quicklook-json'
 cask 'quicklook-csv'
