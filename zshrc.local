@@ -7,6 +7,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
+
 autoload -U promptinit; promptinit
 prompt pure
 
