@@ -1,7 +1,13 @@
 [user]
   name = Jonathan Steele
   email = jonathan@steele.pro
-  signingkey = B35133D30936E88B
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDuxnRDpF0KYtKn9LwDxD8aNtZ1EMOd4VJHEr2AslUfQ
+[gpg]
+  format = ssh
+  [ssh]
+    allowedSignersFile = ~/.ssh/allowed_signers
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 [init]
   defaultBranch = main
 [pull]
