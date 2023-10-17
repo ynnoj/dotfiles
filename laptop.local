@@ -12,11 +12,11 @@ brew 'shellcheck'
 brew 'jsonlint'
 brew 'act'
 brew 'ffmpeg'
-brew 'kryptco/tap/kr'
 brew 'gh'
 brew 'stripe/stripe-cli/stripe'
 brew 'ffmpeg'
 brew 'youtube-dl'
+brew 'pure'
 
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
@@ -33,18 +33,15 @@ cask '1password'
 cask 'responsively'
 cask 'avibrazil-rdm'
 cask 'keybase'
-cask 'keepingyouawake'
 cask 'istat-menus'
 cask 'kap'
-cask 'dropbox'
 cask 'google-backup-and-sync'
 cask 'bartender'
-cask 'alfred'
-cask 'aerial'
 cask 'figma'
 cask 'rocket'
 cask 'font-jetbrains-mono'
 cask 'rectangle'
+cask 'raycast'
 
 cask 'quicklook-json'
 cask 'quicklook-csv'
@@ -52,8 +49,6 @@ cask 'suspicious-package'
 cask 'webpquicklook'
 cask 'qlmarkdown'
 EOF
-
-npm install -g pure
 
 brew cleanup
 
